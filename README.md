@@ -20,33 +20,33 @@ A full-stack Spotify clone built with **React**, **Tailwind CSS**, **Express**, 
 ## 🚀 Installation
 
 ### 1️⃣ Clone the repository
-\`\`\`sh
+```sh
 git clone https://github.com/your-username/spotify-clone.git
 cd spotify-clone
-\`\`\`
+```
 
 ### 2️⃣ Install dependencies
 
 #### 📌 Frontend
-\`\`\`sh
+```sh
 cd frontend
 npm install
-\`\`\`
+```
 
 #### 📌 Backend
-\`\`\`sh
+```sh
 cd ../backend
 npm install
-\`\`\`
+```
 
 ---
 
 ## ⚙️ Environment Variables
 
 ### 🔹 Backend
-Create a \`.env\` file in the \`backend\` directory and add:
+Create a `.env` file in the `backend` directory and add:
 
-\`\`\`ini
+```ini
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 ADMIN_EMAIL=your_admin_email
@@ -56,30 +56,30 @@ CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 NODE_ENV=development    
 CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
-\`\`\`
+```
 
 ### 🔹 Frontend
-Create a \`.env.local\` file in the \`frontend\` directory and add:
+Create a `.env.local` file in the `frontend` directory and add:
 
-\`\`\`ini
+```ini
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-\`\`\`
+```
 
 ---
 
 ## ▶️ Running the Project
 
 #### 🖥 Start the Backend
-\`\`\`sh
+```sh
 cd backend
 npm start
-\`\`\`
+```
 
 #### 🌐 Start the Frontend
-\`\`\`sh
+```sh
 cd frontend
 npm run dev
-\`\`\`
+```
 
 🔗 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -87,14 +87,14 @@ npm run dev
 
 ## 📂 Project Structure
 
-\`\`\`
+```
 spotify-clone/
 │── backend/   # Server-side (Express, MongoDB)
 │── frontend/  # Client-side (React, Vite, Tailwind CSS)
 │── .gitignore
 │── README.md
 │── package.json
-\`\`\`
+```
 
 ---
 
