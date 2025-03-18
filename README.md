@@ -1,32 +1,28 @@
-Spotify Clone
 
 This is a Spotify clone built with React, Tailwind CSS, Express, and MongoDB. The project includes both frontend and backend components.
 
-Table of Contents
+## Table of Contents
 
-Installation
+- [Installation](#installation)
+- [Environment Variables](#environment-variables)
+- [Running the Project](#running-the-project)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-Environment Variables
+## Installation
 
-Running the Project
+### Clone the repository
 
-Project Structure
-
-Features
-
-Contributing
-
-License
-
-Installation
-
-Clone the repository:
-
+\`\`\`bash
 git clone https://github.com/your-username/spotify-clone.git
 cd spotify-clone
+\`\`\`
 
-Install dependencies:
+### Install dependencies
 
+\`\`\`bash
 # Frontend
 cd frontend
 npm install
@@ -34,13 +30,14 @@ npm install
 # Backend
 cd ../backend
 npm install
+\`\`\`
 
-Environment Variables
+## Environment Variables
 
-Backend
+### Backend
+Create a \`.env\` file in the \`backend\` directory and add the following variables:
 
-Create a .env file in the backend directory and add the following variables:
-
+\`\`\`ini
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 ADMIN_EMAIL=your_admin_email
@@ -50,52 +47,55 @@ CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 NODE_ENV=development    
 CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
+\`\`\`
 
-Frontend
+### Frontend
+Create a \`.env.local\` file in the \`frontend\` directory and add the following variable:
 
-Create a .env.local file in the frontend directory and add the following variable:
-
+\`\`\`ini
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+\`\`\`
 
-Running the Project
+## Running the Project
 
-Start the Backend
-
+### Start the Backend
+\`\`\`bash
 cd backend
 npm start
+\`\`\`
 
-Start the Frontend
-
+### Start the Frontend
+\`\`\`bash
 cd frontend
 npm run dev
+\`\`\`
 
-Once started, open your browser and go to http://localhost:3000.
+Once started, open your browser and go to [http://localhost:3000](http://localhost:3000).
 
-Project Structure
+## Project Structure
 
+\`\`\`
 spotify-clone/
 │── backend/   # Server-side (Express, MongoDB)
 │── frontend/  # Client-side (React, Vite, Tailwind CSS)
 │── .gitignore
 │── README.md
 │── package.json
+\`\`\`
 
-Features
+## Features
 
-User authentication with Clerk
+- 🎵 **User authentication** with Clerk
+- 🎛 **Admin panel** for managing songs and albums
+- 📂 **Upload and manage** audio and image files with Cloudinary
+- 🔄 **Real-time updates** with Socket.io
+- 📱 **Responsive design** with Tailwind CSS
 
-Admin panel for managing songs and albums
-
-Upload and manage audio and image files with Cloudinary
-
-Real-time updates with Socket.io
-
-Responsive design with Tailwind CSS
-
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-License
+## License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+`;
