@@ -20,18 +20,21 @@ A full-stack Spotify clone built with **React**, **Tailwind CSS**, **Express**, 
 ## 🚀 Installation
 
 ### 1️⃣ Clone the repository
-\`\`\`bash
+\`\`\`sh
 git clone https://github.com/your-username/spotify-clone.git
 cd spotify-clone
 \`\`\`
 
 ### 2️⃣ Install dependencies
-\`\`\`bash
-# Frontend
+
+#### 📌 Frontend
+\`\`\`sh
 cd frontend
 npm install
+\`\`\`
 
-# Backend
+#### 📌 Backend
+\`\`\`sh
 cd ../backend
 npm install
 \`\`\`
@@ -66,14 +69,14 @@ VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
 ## ▶️ Running the Project
 
-### 🖥 Start the Backend
-\`\`\`bash
+#### 🖥 Start the Backend
+\`\`\`sh
 cd backend
 npm start
 \`\`\`
 
-### 🌐 Start the Frontend
-\`\`\`bash
+#### 🌐 Start the Frontend
+\`\`\`sh
 cd frontend
 npm run dev
 \`\`\`
